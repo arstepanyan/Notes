@@ -1,6 +1,6 @@
 ### Notes (work in progress)
 
-Included subdirectories are
+Included directories are
 
 * **interview_questions**. 
   * Springboard 109 Commonly Asked Data Science Interview Questions: https://www.springboard.com/blog/data-science-interview-questions/
