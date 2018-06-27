@@ -12,7 +12,7 @@ Included directories are
   * CS109 Data Science, Harvard University 
   * Supervised Learning with scikit-learn, DataCamp
  
-* **programming_interview**. Notes from 
+* **program_interview**. Notes from 
   * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
   * "Elements of Programming Interview in Python", Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
   * Python3 documentation
