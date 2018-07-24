@@ -22,7 +22,7 @@ Included directories are
   * Python Programmer Track, DataCamp
   
 * **statistics**. Notes from
-  * Random Variable, Sampling Distributions, Confidence Intervals, Khan Academy
+  * Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
   
   
 There is one individual notebook called **quick_notes.ipynb**. Here I collect some random notes that I feel like adding before I am having an interview.
