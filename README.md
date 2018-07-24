@@ -4,7 +4,8 @@ Included directories are
 
 * **interview_questions**. 
   * Springboard 109 Commonly Asked Data Science Interview Questions: https://www.springboard.com/blog/data-science-interview-questions/
-  * There are only several answers in the original article, so I am filling out the answers.
+   * There are only several answers in the original article, so I am filling out the answers.
+  * The Springboard Data Science Career Track's main units are wrapped up with interview practice questions. Collecting the answeres in the file *springbrd_interview_practice*
   
 * **linear_algebra**. Some introductory concepts and python representations.
 
