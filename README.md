@@ -2,6 +2,10 @@
 
 Included directories are
 
+* **deep_learning**
+  * "TensorFlow for Deep Learning (O'Reilly)", Bharath Ramsundar & Reza Bosagh Zadeh
+  * "Fundamentals of Deep Learning (O'Reilly)", Nikhil Buduma with contributions by Nicholas Locascio 
+  
 * **interview_questions**. 
   * Springboard 109 Commonly Asked Data Science Interview Questions: https://www.springboard.com/blog/data-science-interview-questions/. There are only several answers in the original article, so I am filling out the answers.
   * The Springboard Data Science Career Track's main units are wrapped up with interview practice questions. I am collecting the answeres in the file *springbrd_interview_practice.ipynb*.
