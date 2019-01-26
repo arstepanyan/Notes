@@ -7,7 +7,7 @@ Included directories are
   * "Fundamentals of Deep Learning (O'Reilly)", Nikhil Buduma with contributions by Nicholas Locascio 
   
 * **interview_questions**. 
-  * [Springboard 109 Commonly Asked Data Science Interview Questions](https://nbviewer.jupyter.org/github/arstepanyan/Notes/blob/master/interview_questions/109_interview_questions.ipynb)
+  * [109 Commonly Asked Data Science Interview Questions](https://nbviewer.jupyter.org/github/arstepanyan/Notes/blob/master/interview_questions/109_interview_questions.ipynb)
   * The Springboard Data Science Career Track's main units are wrapped up with interview practice questions. I am collecting the answeres in the file *springbrd_interview_practice.ipynb*. [View in jupyter nbviewer](https://nbviewer.jupyter.org/github/arstepanyan/Notes/blob/master/interview_questions/springbrd_interview_practice.ipynb):
   
 * **linear_algebra**. Some introductory concepts and python representations.
