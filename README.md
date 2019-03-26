@@ -34,6 +34,6 @@ Included directories are
 * **statistics**. Notes from
     * Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
     * Statistical Thinking in Python (Part 1), DataCamp
-  
-  
-There is one individual notebook called **quick_notes.ipynb**. Here I collect some random notes that I feel like adding before I am having an interview.
+
+* **quick_notes.ipynb**
+    * Random notes
