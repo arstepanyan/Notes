@@ -15,6 +15,8 @@ Included directories are
 * **machine_learning**. Notes from
   * CS109 Data Science, Harvard University 
   * Supervised Learning with scikit-learn, DataCamp
+  * Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+  * Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
  
 * **program_interview**. Notes from 
   * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
