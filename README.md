@@ -13,23 +13,27 @@ Included directories are
 * **linear_algebra**. Some introductory concepts and python representations.
 
 * **machine_learning**. Notes from
-  * CS109 Data Science, Harvard University 
-  * Supervised Learning with scikit-learn, DataCamp
-  * Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
-  * Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
- 
-* **program_interview**. Notes from 
-  * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
-  * "Elements of Programming Interview in Python", Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
-  * Python3 documentation
-  * Learn to Program: Crafting Quality Code, University of Toronto, Coursera
- 
-* **python**. Notes from
-  * Python Programmer Track, DataCamp
+    * CS109 Data Science, Harvard University 
+    * Supervised Learning with scikit-learn, DataCamp
+    * Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+    * Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+
+* **programming**. Notes from
+    * MIT 6.006 Introduction to Algorithms, Fall 2011, https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1 
+    * *data_structures_and_algorithms*
+        * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
+        * "Elements of Programming Interview in Python", Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
+        * Python3 documentation
+        * Learn to Program: Crafting Quality Code, University of Toronto, Coursera
+    * *interview_practice*
+        * leetcode
+        * mock interviews
+    * *python_programmer_track_datacamp*
+        * Python Programmer Track, DataCamp
   
 * **statistics**. Notes from
-  * Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
-  * Statistical Thinking in Python (Part 1), DataCamp
+    * Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
+    * Statistical Thinking in Python (Part 1), DataCamp
   
   
 There is one individual notebook called **quick_notes.ipynb**. Here I collect some random notes that I feel like adding before I am having an interview.
