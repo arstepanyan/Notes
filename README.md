@@ -14,27 +14,26 @@
 * **linear_algebra**. Some introductory concepts and python representations.
 
 * **machine_learning**. 
-    * CS109 Data Science, Harvard University 
-    * Supervised Learning with scikit-learn, DataCamp
-    * Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
-    * Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+    * **harvard_cs109.ipynb**: CS109 Data Science, Harvard University 
+    * **sup_learning_scikit_learn.ipynb**: Supervised Learning with scikit-learn, DataCamp
+    * **advanced_machine_learning_tensorflow_gcp**: Advanced Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+    * **machine_learning_tensorflow_gcp**:Machine Learning with TensorFlow on Google Cloud Platform Specialization, Coursera
+    * **aws_ml_path_data_science**: AWS Machine Learning Path, Data Scientist
 
 * **programming**.
-    * MIT 6.006 Introduction to Algorithms, Fall 2011, https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1 
-    * *data_structures_and_algorithms*
+    * **elements_prog_interview.ipynb**: MIT 6.006 Introduction to Algorithms, Fall 2011, https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1 
+    * **data_structures_and_algorithms**
         * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
         * "Elements of Programming Interview in Python", Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
         * Python3 documentation
         * Learn to Program: Crafting Quality Code, University of Toronto, Coursera
-    * *interview_practice*
-        * leetcode
-        * mock interviews
-    * *python_programmer_track_datacamp*
-        * Python Programmer Track, DataCamp
+    * **interview_practice**: leetcode, mock interviews
+    * **python_programmer_track_datacamp**: Python Programmer Track, DataCamp
+    * **elements_prog_interview**: Chapter overview + coding exercises of Elements of Programming Interviews in Python by Adnan Aziz, Tsung-Hsien Lee, Amit Prakash.
   
 * **statistics**. 
-    * Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
-    * Statistical Thinking in Python (Part 1), DataCamp
+    * **foundations_of_statistics.ipynb**: Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
+    * **infer_statistics_python.ipynb**: Statistical Thinking in Python (Part 1), DataCamp
 
 * **quick_notes.ipynb**
     * Random notes
