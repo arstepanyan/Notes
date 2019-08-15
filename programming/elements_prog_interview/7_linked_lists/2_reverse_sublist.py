@@ -29,12 +29,8 @@ class LinkedList:
             print(currentNode.data)
             currentNode = currentNode.next
 
-
-
-
 def reverse_sublist(L, s, f):
-
-    # Find the element precedinf the first element of the sublist
+    # Find the element preceding the first element of the sublist
     prev = L.head
     for i in range(s-2):
         prev = prev.next
@@ -56,7 +52,7 @@ def reverse_sublist(L, s, f):
     return L
 
 if __name__ == '__main__':
-    # Create the first ordered linked list and print
+    # Create a list and print
     l = LinkedList()
     l.insert(ListNode(11))
     l.insert(ListNode(3))
@@ -66,7 +62,7 @@ if __name__ == '__main__':
     print('L')
     l.printList()
 
-    # reverse sublist containing elements from 2nd to 4th positions
+    # Reverse sublist containing elements from 2nd to 4th positions
     reversed = reverse_sublist(l, 2, 4)
     print('\nReversed')
     LinkedList.printList(reversed)
