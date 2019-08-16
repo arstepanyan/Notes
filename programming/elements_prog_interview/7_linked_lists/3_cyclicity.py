@@ -3,6 +3,7 @@ class ListNode:
         self.data = data
         self.next = None
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -29,6 +30,7 @@ class LinkedList:
             print(currentNode.data)
             currentNode = currentNode.next
 
+
 def cyclicity(L):
     fast = slow = L.head
     while fast and fast.next and fast.next.next:
@@ -45,6 +47,7 @@ def cyclicity(L):
             return node1
     return None
 
+
 def cycle_len(node):
     beg, len = node, 0
     while True:
@@ -52,6 +55,7 @@ def cycle_len(node):
         beg = beg.next
         if beg == node:
             return len
+
 
 if __name__ == '__main__':
     # Create a linked list with a cycle
@@ -70,7 +74,7 @@ if __name__ == '__main__':
     #       Either don't print it (means that you should leave the following line as is, do not uncomment them)
     #       or manually stop the printing before I modify the code
     print('L1')
-    #l1.printList()
+    # l1.printList()
     cycle_exists = cyclicity(l1)
     if cycle_exists:
         print(f'The beginning node of the cycle ... {cycle_exists.data}\n')
@@ -92,13 +96,3 @@ if __name__ == '__main__':
         print(f'The beginning node of the cycle ... {cycle_exists.data}\n')
     else:
         print('There is no cycle in the list\n')
-
-
-
-
-
-
-
-
-
-
