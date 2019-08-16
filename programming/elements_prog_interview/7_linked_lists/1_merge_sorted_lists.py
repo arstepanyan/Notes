@@ -3,6 +3,7 @@ class ListNode:
         self.data = data
         self.next = None
 
+
 class LinkedList:
     def __init__(self):
         self.head = None
@@ -29,6 +30,7 @@ class LinkedList:
             print(currentNode.data)
             currentNode = currentNode.next
 
+
 def merge_two_sorted_lists(L1, L2):
     # Create a placeholder for the result
     dummy_head = tail = ListNode()
@@ -41,12 +43,14 @@ def merge_two_sorted_lists(L1, L2):
     tail.next = L1 or L2
     return dummy_head.next
 
+
 def printMerged(node):
     while True:
         if node is None:
             break
         print(node.data)
         node = node.next
+
 
 if __name__ == '__main__':
     # Create the first ordered linked list and print
@@ -68,8 +72,3 @@ if __name__ == '__main__':
     merged_list = merge_two_sorted_lists(l1.head, l2.head)
     print('\nMerged')
     printMerged(merged_list)
-
-
-
-
-
