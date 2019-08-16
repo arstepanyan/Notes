@@ -19,7 +19,7 @@ class Stack:
             pop_el = self.items.pop()
             current_max = self.cached_maxes[-1][0]
             if pop_el == current_max:
-                if self.cached_maxes[-1][1]-1 == 0:
+                if self.cached_maxes[-1][1] - 1 == 0:
                     self.cached_maxes.pop()
             return pop_el
 
@@ -34,6 +34,7 @@ class Stack:
             elif item > cur_max:
                 self.cached_maxes.append([item, 1])
 
+
 if __name__ == "__main__":
     s = Stack()
     s.push(1)
@@ -46,7 +47,7 @@ if __name__ == "__main__":
     s.pop()
     print(f's.items after 2 pops .... {s.items}')
     print(f's.max() ................. {s.max()}')
-    s.pop()
-    s.pop()
-    print(f's.items after 2 more pops ......... {s.items}')
-    print(f's.max() ........................... {s.max()}')
+    # s.pop()
+    # s.pop()
+    # print(f's.items after 2 more pops ......... {s.items}')
+    # print(f's.max() ........................... {s.max()}')
