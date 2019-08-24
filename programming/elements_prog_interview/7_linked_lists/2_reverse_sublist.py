@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     # Reverse sublist containing elements from 2nd to 4th positions
     reversed = reverse_sublist(l, 2, 4)
-    print('\nReversed')
+    print('\nReversed from 2 to 4')
     LinkedList.printList(reversed)
 
 
