@@ -1,4 +1,13 @@
-def first_occurance(L, v):
+def first_occurrance(L, v):
+    """
+    Find the first occurence of v in L
+    :param L: List[int]
+    :param v: int
+    :return: -1 if v is not in the list, else the index of the first occurrence of v
+    """
+    if L[0] == v:
+        return 0
+
     left, right = 0, len(L) - 1
     while left <= right:
         middle = left + (right - left) // 2
@@ -11,7 +20,16 @@ def first_occurance(L, v):
     return -1
 
 
-def last_occurance(L, v):
+def last_occurrance(L, v):
+    """
+    Find the last occurence of v in L
+    :param L: List[int]
+    :param v: int
+    :return: -1 if v is not in the list, else the index of the last occurrence of v
+    """
+    if L[-1] == v:
+        return len(L) - 1
+
     left, right = 0, len(L) - 1
     while left <= right:
         middle = left + (right - left) // 2
@@ -24,12 +42,19 @@ def last_occurance(L, v):
     return -1
 
 
-def interval_inclosing_key(L, k):
-    first = first_occurance(L, k)
-    last = last_occurance(L, k)
+def interval_enclosing_key(L, k):
+    """
+    Find the interval enclosing k
+    :param L: List[int]
+    :param k: int
+    :return: -1 if k is not in L, else the indices of the first and the last occurrences of k
+    """
+    first = first_occurrance(L, k)
+    last = last_occurrance(L, k)
     return [first, last]
 
 
 if __name__ == "__main__":
-    print(first_occurance([-14, -10, 2, 108, 108, 243, 285, 285, 285, 401], 285))
-    print(interval_inclosing_key([1, 2, 2, 4, 4, 4, 7, 11, 11, 13], 11))
+    print(first_occurrance([-14, -10, 2, 108, 108, 243, 285, 285, 285, 401], 285))
+    print(interval_enclosing_key([1, 2, 2, 4, 4, 4, 7, 11, 11, 13], 1))
+    print(interval_enclosing_key([2, 4, 4, 4, 4, 4, 4, 7, 11, 11, 13], 4))
