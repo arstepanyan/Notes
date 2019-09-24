@@ -1,20 +1,4 @@
 # O(n^2) time complexity
-def selection_sort(l):
-    """
-    Sorts l
-    :param l: List[int], will work on strings as well.
-    :return: sorted l
-    """
-    i = 0
-    while i < len(l):
-        for j in range(i + 1, len(l)):
-            if l[j] < l[i]:
-                l[i], l[j] = l[j], l[i]
-        i += 1
-    return l
-
-
-# O(n^2) time complexity
 def bubble_sort1(l):
     """
     Sorts l
@@ -50,6 +34,22 @@ def bubble_sort2(l):
             i += 1
         j -= 1
         i = 0
+    return l
+
+
+# O(n^2) time complexity
+def selection_sort(l):
+    """
+    Sorts l
+    :param l: List[int], will work on strings as well.
+    :return: sorted l
+    """
+    i = 0
+    while i < len(l):
+        for j in range(i + 1, len(l)):
+            if l[j] < l[i]:
+                l[i], l[j] = l[j], l[i]
+        i += 1
     return l
 
 
@@ -101,15 +101,10 @@ if __name__ == "__main__":
     import time
     import random
 
-    print('Selection sort: ', selection_sort([0, 4, 100, -10]))
     print('Bubble sort without stopping condition: ', selection_sort([0, 4, 100, -10]))
     print('Bubble sort with stopping condition: ', selection_sort([0, 4, 100, -10]))
+    print('Selection sort: ', selection_sort([0, 4, 100, -10]))
     print('Merge sort: ', selection_sort([0, 4, 100, -10]))
-
-    l = [random.randint(-100, 100) for i in range(10000)]
-    t0 = time.time()
-    selection_sort(l)
-    print(f'\nSelection_sort ....................................... {time.time() - t0} seconds')
 
     l = [random.randint(-100, 100) for i in range(10000)]
     t0 = time.time()
@@ -120,6 +115,11 @@ if __name__ == "__main__":
     t0 = time.time()
     bubble_sort2(l)
     print(f'Bubble sort stopping whenever there are no swaps ..... {time.time() - t0} seconds')
+
+    l = [random.randint(-100, 100) for i in range(10000)]
+    t0 = time.time()
+    selection_sort(l)
+    print(f'\nSelection_sort ....................................... {time.time() - t0} seconds')
 
     l = [random.randint(-100, 100) for i in range(10000)]
     t0 = time.time()
