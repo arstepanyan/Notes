@@ -16,7 +16,7 @@ def bubble_sort1(l):
     return l
 
 
-# O(n^2) time complexity. Slightly faster than the above because there is a stopping condition
+# O(n^2) time complexity. There is a stopping condition
 def bubble_sort2(l):
     """
     Sorts l
@@ -106,22 +106,22 @@ if __name__ == "__main__":
     print('Selection sort: ', selection_sort([0, 4, 100, -10]))
     print('Merge sort: ', selection_sort([0, 4, 100, -10]))
 
-    l = [random.randint(-100, 100) for i in range(10000)]
+    l = [random.randint(-100, 100) for i in range(1000)]
     t0 = time.time()
     bubble_sort1(l)
-    print(f'Bubble sort without stopping condition ............... {time.time() - t0} seconds')
+    print(f'\nBubble sort without stopping condition ............... {time.time() - t0} seconds')
 
-    l = [random.randint(-100, 100) for i in range(10000)]
+    l = [random.randint(-100, 100) for i in range(1000)]
     t0 = time.time()
     bubble_sort2(l)
     print(f'Bubble sort stopping whenever there are no swaps ..... {time.time() - t0} seconds')
 
-    l = [random.randint(-100, 100) for i in range(10000)]
+    l = [random.randint(-100, 100) for i in range(1000)]
     t0 = time.time()
     selection_sort(l)
-    print(f'\nSelection_sort ....................................... {time.time() - t0} seconds')
+    print(f'Selection_sort ....................................... {time.time() - t0} seconds')
 
-    l = [random.randint(-100, 100) for i in range(10000)]
+    l = [random.randint(-100, 100) for i in range(1000)]
     t0 = time.time()
     merge_sort(l)
     print(f'Merge sort ........................................... {time.time() - t0} seconds')
