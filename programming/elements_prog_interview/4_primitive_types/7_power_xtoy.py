@@ -25,8 +25,8 @@ def pow2(x, y):
 
 # O(n) solution with binary representation of y, as well as properties of exponentiation, specifically x^(y0+y1) = x^y0 * x^y1
 # For example, x^1010 = x^(101 + 101) = x^101 * x^101
-# Similarly,   x^101 = x^(100 + 1) = x^100 * x = x(10) * x^10 * x
-# Generalizing, if the least significant bit of y is 0, the results is (x^(y/2))^2; otherwise, it is x * (x^(y/2))^2
+# Similarly,   x^101 = x^(100 + 1) = x^100 * x = x^(10) * x^10 * x
+# Generalizing, if the least significant bit of y is 0, the result is (x^(y/2))^2; otherwise, it is x * (x^(y/2))^2
 # When y is negative, x is replaced by 1/x and y by -y
 def pow3(x, y):
     result, power = 1.0, y
