@@ -1,10 +1,10 @@
 # Time complexity = O(n), space complexity = O(1)
 def dutch_flag1(A, i):
     """
-     Rearrange the elements of A such that al elements less than A[i] (the 'pivot') appear first,
+     Rearrange the elements of A such that all elements less than A[i] (the 'pivot') appear first,
          followed by elements equal to the pivot, followed by elements greater than the pivot
     :param A: list
-    :param i: index
+    :param i: index of the pivot
     :return: list
     """
     pivot = A[i]
