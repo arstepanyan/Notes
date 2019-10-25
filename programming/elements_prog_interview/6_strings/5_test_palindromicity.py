@@ -1,3 +1,9 @@
+"""
+For the purpose of this problem, define a palindromic string to be a string
+which when all the nonalphanumeric are removed it reads the same front to back ignoring case.
+"""
+
+
 def palindromicity(s):
     start, end = 0, len(s) - 1
     while start < end:
@@ -8,7 +14,7 @@ def palindromicity(s):
 
         if s[start].lower() != s[end].lower():
             return False
-        start, end = start + 1, end -1
+        start, end = start + 1, end - 1
     return True
 
 
