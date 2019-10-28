@@ -40,10 +40,6 @@ def _find_lca(tree, node1, node2):
 
     if left and right:
         return tree.value
-    elif left and tree is node1:
-        return node1.value
-    elif right and tree is node2:
-        return node2.value
 
     return left or right
 
