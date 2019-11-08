@@ -20,7 +20,8 @@ class TreeNode:
         self.left = left
         self.right = right
 
-
+# Time complexity = O(n)
+# Additional Space = O(h) where h is the height of the tree
 def symmetric_bt(root):
     return not root or _symmetric_bt(root.left, root.right)
 
