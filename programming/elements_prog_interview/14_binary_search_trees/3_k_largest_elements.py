@@ -15,7 +15,8 @@ For example, if the input is the bellow BST and k=3, your program should return 
                            31
 """
 
-
+# Time = O(h + k) where h is the height of the tree
+# Space = O(k) for storing the results
 class TreeNode:
     def __init__(self, val):
         self.val = val
