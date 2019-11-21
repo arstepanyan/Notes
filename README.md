@@ -1,4 +1,4 @@
-### Notes (work in progress)
+## Notes (work in progress)
 
 ### Current focus is on programming -> elements_prog_interview
 
