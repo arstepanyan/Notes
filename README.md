@@ -21,15 +21,16 @@
     * **aws_ml_path_data_science**: AWS Machine Learning Path, Data Scientist
 
 * **programming**.
-    * **elements_prog_interview.ipynb**: MIT 6.006 Introduction to Algorithms, Fall 2011, https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1 
     * **data_structures_and_algorithms**
         * "Programming in Python 3, A Complete Introduction to the Python Language", Mark Summerfield
         * "Elements of Programming Interview in Python", Adnan Aziz, Tsung-Hsien Lee, Amit Prakash
         * Python3 documentation
         * Learn to Program: Crafting Quality Code, University of Toronto, Coursera
+    * **elements_prog_interview**: Chapter overview + coding exercises of Elements of Programming Interviews in Python by Adnan Aziz, Tsung-Hsien Lee, Amit Prakash.
     * **interview_practice**: leetcode, mock interviews
     * **python_programmer_track_datacamp**: Python Programmer Track, DataCamp
-    * **elements_prog_interview**: Chapter overview + coding exercises of Elements of Programming Interviews in Python by Adnan Aziz, Tsung-Hsien Lee, Amit Prakash.
+    * ***debugging_testing_profiling.ipynb***: Notes from Crafting Quality Code, University of Toronto, Coursera: https://www.coursera.org/learn/program-code/home/welcome
+    * ***mit_datastructures_algos.ipynb***: MIT 6.006 Introduction to Algorithms, Fall 2011, https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1 
   
 * **statistics**. 
     * **foundations_of_statistics.ipynb**: Random Variables, Sampling Distributions, Confidence Intervals, Khan Academy
