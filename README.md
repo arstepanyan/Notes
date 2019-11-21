@@ -1,5 +1,8 @@
 ### Notes (work in progress)
 
+### Current focus is on programming -> elements_prog_interview
+
+
 * **databases**
     * Databases and SQL for Data Science, IBM, Coursera
 
