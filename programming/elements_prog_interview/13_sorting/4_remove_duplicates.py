@@ -10,14 +10,14 @@ one result could be <((Ian,Bothan), (David,Gower)>; <(David,Gower), (Ian,Bell)> 
 # Extra space complexity = O(1) (We are reusing the input array to store the results)
 def remove_duplicates(names):
     names.sort(key = lambda x: x[0])
-    write_index = 0
+    write_index = 1
     for i in range(1, len(names)):
-        if names[i] != names[i - 1]:
+        if names[i][0] != names[i - 1][0]:
             names[write_index] = names[i]
             write_index += 1
     return names[:write_index]
 
 
 if __name__ == '__main__':
-    names = [['james', 'smith'], ['ann', 'taylor'], ['ann', 'morgan'], ['john', 'kurkman']]
+    names = [['james', 'smith'], ['ann', 'taylor'], ['ann', 'morgan'], ['john', 'kurkman'], ['james', 'blunt']]
     print(remove_duplicates(names))
