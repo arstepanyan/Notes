@@ -1,7 +1,10 @@
 """
 Given an array of positive integers, find the largest h
 such that there are at least h entries in the array that are greater than or equal to h.
+nums = [1, 7, 9, 2, 5]
+h_index = 3
 """
+
 
 # Time Complexity = O(n log n)
 def h_index(arr):
@@ -16,4 +19,3 @@ def h_index(arr):
 if __name__ == '__main__':
     nums = [1, 7, 9, 2, 5]
     print(h_index(nums))
-    print(h_index2(nums))
